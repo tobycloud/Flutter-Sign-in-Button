@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+
 import 'constants.dart';
 
 // ignore: must_be_immutable
@@ -140,6 +141,7 @@ class SignInButton extends StatelessWidget {
             elevation: elevation,
             padding: EdgeInsets.all(padding!),
             shape: CircleBorder(),
+            minWidth: 0,
           );
   }
 
